@@ -8,3 +8,4 @@ before_install:
 install: "pip install -r requirements_dev.txt --use-mirrors"
 
 script: nosetests iati_datastore
+cache: true
