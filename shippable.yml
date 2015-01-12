@@ -16,15 +16,7 @@ before_install:
 build_image: shippableimages/ubuntu1404_python
 
 script: 
- - sudo apt-get install -y python-dev
- - sudo easy_install -U pip
- - mkdir -p shippable/testresults shippable/codecoverage
- - sudo apt-get install -y libevent-dev
- #- sudo apt-get install libxml2-dev
- #- sudo apt-get install libxslt1-dev 
- #- sudo apt-get build-dep -y python-psycopg2
- - sudo apt-get install -y postgresql redis-server python-pip libpq-dev libxml2-dev libxslt-dev
- - sudo pip install -r requirements_dev.txt --use-mirrors
+ - ./.jenkins.sh
  - nosetests iati_datastore --with-coverage --cover-package=iati_datastore --with-xunit --xunit-file=shippable/testresults/nosetests.xml
  - coverage xml -o shippable/codecoverage/coverage.xml
 
