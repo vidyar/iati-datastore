@@ -25,7 +25,6 @@ script:
  - sudo apt-get update
  - sudo apt-get install -y postgresql redis-server python-pip libpq-dev libxml2-dev libxslt-dev
  - sudo pip install -r requirements_dev.txt --use-mirrors
- - ./.jenkins.sh
  - nosetests iati_datastore --with-coverage --cover-package=iati_datastore --with-xunit --xunit-file=shippable/testresults/nosetests.xml
  - coverage xml -o shippable/codecoverage/coverage.xml
 
