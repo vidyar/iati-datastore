@@ -9,6 +9,10 @@ python:
 
 build_image: shippableimages/ubuntu1404_python
 
+before_script:
+ - mkdir -p shippable/testresults
+ - mkdir -p shippable/codecoverage
+
 before_install:
   # We're going to set up a virtualenv and activate the python version we want to use
  - mkdir -p $HOME/sample_ve/
