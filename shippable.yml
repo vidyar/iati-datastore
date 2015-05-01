@@ -12,11 +12,10 @@ before_install:
   - mkdir -p $HOME/sample_ve/
   - virtualenv -p /usr/bin/python$PYTHON_VERSION $HOME/sample_ve/
   - source $HOME/sample_ve/bin/activate
-  
+
 build_image: shippableimages/ubuntu1404_python
 
 script: 
- 
  - sudo apt-get install -y python-dev
  - sudo easy_install -U pip
  - mkdir -p shippable/testresults shippable/codecoverage
