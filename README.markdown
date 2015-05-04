@@ -1,5 +1,6 @@
 
 https://apibeta.shippable.com/projects/5541e38913733da41ef4667b/badge?branchName=master
+[![Build Status](https://apibeta.shippable.com/projects/5541e38913733da41ef4667b/badge?branchName=master)](https://appbeta.shippable.com/projects/5541e38913733da41ef4667b/builds/latest)
 IATI Datastore
 ==============
 
