@@ -1,6 +1,8 @@
+
+https://apibeta.shippable.com/projects/5541e38913733da41ef4667b/badge?branchName=master
 IATI Datastore
 ==============
-https://apibeta.shippable.com/projects/5541e38913733da41ef4667b/badge?branchName=master
+
 The International Aid Transparency Initiative (IATI) aims to make
 information about aid spending easier to access. To this end,
 we publish the [IATI standard](http://iatistandard.org) and keep a
