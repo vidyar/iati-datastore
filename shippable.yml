@@ -16,7 +16,6 @@ before_install:
   - source $HOME/sample_ve/bin/activate
 
 build_image: shippableimages/ubuntu1404_python
-
 script: 
  - sudo apt-get install -y python-dev
  - sudo easy_install -U pip
